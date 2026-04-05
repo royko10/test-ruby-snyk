@@ -72,8 +72,8 @@ GEM
     crass (1.0.6)
     date (3.5.1)
     erubi (1.13.1)
-    execjs (2.10.0)
-    ffi (1.17.3-arm64-darwin)
+    execjs (2.10.1)
+    ffi (1.17.4-arm64-darwin)
     font-awesome-sass (6.7.2)
       sassc (~> 2.0)
     globalid (1.1.0)
@@ -81,8 +81,10 @@ GEM
     hiredis (0.6.3)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
+    lodash-rails (4.17.15)
+      railties (>= 3.1)
     logger (1.7.0)
-    loofah (2.25.0)
+    loofah (2.25.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.9.0)
@@ -111,7 +113,7 @@ GEM
     puma (5.6.9)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (2.2.21)
+    rack (2.2.23)
     rack-proxy (0.7.7)
       rack
     rack-test (2.2.0)
@@ -133,8 +135,8 @@ GEM
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.6.2)
-      loofah (~> 2.21)
+    rails-html-sanitizer (1.7.0)
+      loofah (~> 2.25)
       nokogiri (>= 1.15.7, != 1.16.7, != 1.16.6, != 1.16.5, != 1.16.4, != 1.16.3, != 1.16.2, != 1.16.1, != 1.16.0.rc1, != 1.16.0)
     railties (5.2.8.1)
       actionpack (= 5.2.8.1)
@@ -146,7 +148,7 @@ GEM
     ruby-rc4 (0.1.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    semantic_range (3.1.0)
+    semantic_range (3.1.1)
     sprockets (4.2.2)
       concurrent-ruby (~> 1.0)
       logger
@@ -157,8 +159,8 @@ GEM
       sprockets (>= 3.0.0)
     thor (1.5.0)
     thread_safe (0.3.6)
-    tilt (2.6.1)
-    timeout (0.6.0)
+    tilt (2.7.0)
+    timeout (0.6.1)
     tzinfo (1.2.11)
       thread_safe (~> 0.1)
     webpacker (5.4.4)
@@ -173,7 +175,7 @@ GEM
     websocket-extensions (0.1.5)
 
 PLATFORMS
-  arm64-darwin-24
+  arm64-darwin-25
 
 DEPENDENCIES
   american_date
@@ -187,6 +189,7 @@ DEPENDENCIES
   combine_pdf
   font-awesome-sass
   hiredis
+  lodash-rails (= 4.17.15)
   puma (~> 5.6.2)
   rails (~> 5.2.8.1)
   webpacker (~> 5.0)
